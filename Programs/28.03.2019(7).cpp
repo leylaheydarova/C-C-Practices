@@ -1,0 +1,22 @@
+#include <iostream> 
+using namespace std;
+class MyClass {
+	public:
+		int m, n;
+		//constructor of class //
+		MyClass () {
+			m = 0; 
+			n = 0;
+		}
+		
+		void show () {
+			cout << "m = " << m << endl;
+			cout << "n = " << n << endl;
+		}
+};
+
+int main () {
+	MyClass obj;
+	obj.show();
+	return 0;
+}
